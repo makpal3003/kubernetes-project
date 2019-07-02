@@ -12,3 +12,4 @@ spec:
     name: memcached
   - image: consul
     name: consul
+
