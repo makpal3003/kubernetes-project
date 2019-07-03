@@ -4,11 +4,11 @@ metadata:
   name: myapp
 spec:
   containers:
-  - image: nginx
-    name: nginx
-  - image: redis
-    name: redis
-  - image: memcached
-    name: memcached
-  - image: consul
-    name: consul
+  - name: nginx
+    image: nginx
+  - name: redis
+    image: redis
+  - name: memcached
+    image: memcached
+  - name: consul
+    image: consul
